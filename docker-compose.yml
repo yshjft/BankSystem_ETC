@@ -7,7 +7,7 @@ services:
     ports:
       - "6379:6379"
   bank_system:
-    image: dockerhys/bank-system:latest
+    image: dockerhys/bank-system:1.1
     restart: unless-stopped
     depends_on:
       - redis
