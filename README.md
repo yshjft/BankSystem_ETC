@@ -17,6 +17,10 @@ BankSystem 배포를 위한 repository입니다.
 ## 프로젝트 구조
 ![img.png](img.png)
 
+## URL
+- ~~https://yshjft.xyz~~
+- 현재는 인스턴스 제거하였습니다.
+
 ## 문제
 - ~~certbot 컨테이너가 off됨(인증서 갱신에 문제 생기지 않을까?)~~   
   ~~→ ./init-letsencrypt.sh 후 docker-compose up을 하지 않았다.~~
